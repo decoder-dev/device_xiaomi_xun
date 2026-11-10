@@ -228,6 +228,17 @@ on boot
     chown root system /sys/kernel/qts/secondary/trusted_touch_event
     chown root system /sys/kernel/qts/secondary/trusted_touch_type
     chown root system /sys/kernel/qts/secondary/trusted_touch_device_path
+    chmod 0660 /sys/kernel/qts/primary/trusted_touch_enable
+    chmod 0660 /sys/kernel/qts/primary/trusted_touch_event
+    chmod 0660 /sys/kernel/qts/primary/trusted_touch_type
+    chmod 0660 /sys/kernel/qts/primary/trusted_touch_device_path
+    chmod 0660 /sys/kernel/qts/secondary/trusted_touch_enable
+    chmod 0660 /sys/kernel/qts/secondary/trusted_touch_event
+    chmod 0660 /sys/kernel/qts/secondary/trusted_touch_type
+    chmod 0660 /sys/kernel/qts/secondary/trusted_touch_device_path
+
+    chown system system /sys/kernel/qvr_external_sensor/fd
+    chmod 0660 /sys/kernel/qvr_external_sensor/fd
 
     chown system system /sys/class/backlight/panel0-backlight/brightness
     chown system system /sys/class/backlight/panel0-backlight/max_brightness
