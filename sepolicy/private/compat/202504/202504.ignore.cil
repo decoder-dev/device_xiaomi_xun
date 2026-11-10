@@ -5,5 +5,8 @@
 (typeattribute new_objects)
 (typeattributeset new_objects
   ( new_objects
+    sysfs_backlight
+    vendor_hal_xiaomi_mlipay_hwservice
+    vendor_hal_xiaomi_motor_hwservice
     vendor_thermal_normal_prop
     vendor_wlanchip_prop))
