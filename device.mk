@@ -146,8 +146,7 @@ PRODUCT_PACKAGES += \
 
 # Fastbootd
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot-service.example_recovery \
-    fastbootd
+    android.hardware.fastboot-service.example_recovery
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -202,10 +201,8 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_bengal)
 
 # Kernel
-PRODUCT_ENABLE_UFFD_GC := true
-
 PRODUCT_COPY_FILES += \
-	$(KERNEL_PATH)/kernel:kernel
+    $(KERNEL_PATH)/kernel:kernel
 
 # Keymint
 PRODUCT_PACKAGES += \
