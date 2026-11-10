@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH := device/xiaomi/xun
+KERNEL_PATH := $(DEVICE_PATH)-kernel
+
 # A/B
 AB_OTA_UPDATER := true
 
@@ -92,6 +95,7 @@ BOARD_KERNEL_CMDLINE := \
 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_VERSION := 5.15
 TARGET_NO_KERNEL_OVERRIDE := true
 
 # Kernel modules
