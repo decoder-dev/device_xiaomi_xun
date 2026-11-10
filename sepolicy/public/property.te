@@ -1,0 +1,5 @@
+# Thermal
+vendor_public_prop(vendor_thermal_normal_prop)
+
+# Wi-Fi
+vendor_public_prop(vendor_wlanchip_prop)

@@ -1,0 +1,7 @@
+# Miui
+ro.miui.    u:object_r:exported_system_prop:s0
+
+# Wi-Fi
+ro.wlan.bdf       u:object_r:vendor_wlanchip_prop:s0
+ro.wlan.chip      u:object_r:vendor_wlanchip_prop:s0
+ro.wlan.chipid    u:object_r:vendor_wlanchip_prop:s0

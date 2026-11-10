@@ -1,0 +1,3 @@
+hal_client_domain(surfaceflinger, hal_displayfeature_xiaomi)
+
+binder_call(surfaceflinger, vendor_hal_qspmhal_default)

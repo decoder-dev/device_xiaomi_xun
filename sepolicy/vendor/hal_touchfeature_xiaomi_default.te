@@ -1,0 +1,14 @@
+type hal_touchfeature_xiaomi_default, domain;
+hal_server_domain(hal_touchfeature_xiaomi_default, hal_touchfeature_xiaomi)
+
+type hal_touchfeature_xiaomi_default_exec, exec_type, file_type, vendor_file_type;
+init_daemon_domain(hal_touchfeature_xiaomi_default)
+
+binder_call(hal_touchfeature_xiaomi_client, hal_touchfeature_xiaomi_server)
+binder_call(hal_touchfeature_xiaomi_server, hal_touchfeature_xiaomi_client)
+
+hal_attribute_hwservice(hal_touchfeature_xiaomi, hal_touchfeature_xiaomi_hwservice)
+
+allow hal_touchfeature_xiaomi touchfeature_device:chr_file rw_file_perms;
+
+vndbinder_use(hal_touchfeature_xiaomi)

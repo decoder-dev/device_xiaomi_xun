@@ -1,0 +1,5 @@
+hal_client_domain(system_server, hal_displayfeature_xiaomi)
+hal_client_domain(system_server, hal_dms)
+hal_client_domain(system_server, hal_touchfeature_xiaomi)
+
+allow system_server proc_last_kmsg:file { getattr open read };

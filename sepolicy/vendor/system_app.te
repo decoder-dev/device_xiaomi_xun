@@ -1,0 +1,2 @@
+hal_client_domain(system_app, hal_displayfeature_xiaomi)
+hal_client_domain(system_app, hal_touchfeature_xiaomi)

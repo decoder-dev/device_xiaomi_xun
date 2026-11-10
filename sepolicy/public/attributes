@@ -1,0 +1,4 @@
+hal_attribute(displayfeature_xiaomi)
+hal_attribute(dms)
+hal_attribute(touchfeature_xiaomi)
+vendor_hal_attribute(citsensorservice_xiaomi)

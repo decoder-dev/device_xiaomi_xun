@@ -1,0 +1,5 @@
+# Displayfeature
+vendor_restricted_prop(vendor_displayfeature_prop)
+
+# Sensors
+vendor_restricted_prop(vendor_als_prop)

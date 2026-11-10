@@ -1,0 +1,8 @@
+# Procfs
+type proc_last_kmsg, fs_type, proc_type;
+
+# Thermal
+type thermal_data_file, data_file_type, file_type;
+
+# Touchscren
+type proc_touchpad, fs_type, proc_type;

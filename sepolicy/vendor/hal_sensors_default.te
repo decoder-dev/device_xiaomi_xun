@@ -1,0 +1,9 @@
+allow hal_sensors_default fwk_camera_hwservice:hwservice_manager find;
+allow hal_sensors_default fwk_camera_service:service_manager find;
+allow hal_sensors_default hidl_token_hwservice:hwservice_manager find;
+
+binder_call(hal_sensors_default, cameraserver)
+
+get_prop(hal_sensors_default, camera_config_prop)
+get_prop(hal_sensors_default, vendor_camera_prop)
+set_prop(hal_sensors_default, vendor_als_prop)

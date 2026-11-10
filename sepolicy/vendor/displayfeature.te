@@ -1,0 +1,13 @@
+type displayfeature, domain;
+hal_client_domain(displayfeature, hal_displayfeature_xiaomi)
+hal_client_domain(displayfeature, vendor_hal_display_color)
+hal_client_domain(displayfeature, vendor_hal_display_postproc)
+
+type displayfeature_exec, exec_type, file_type, vendor_file_type;
+init_daemon_domain(displayfeature)
+
+add_service(displayfeature, DisplayFeatureControl_service)
+
+get_prop(displayfeature, vendor_displayfeature_prop)
+
+vndbinder_use(displayfeature)
