@@ -172,7 +172,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Security
 BOOT_SECURITY_PATCH := 2025-12-01
-VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
+VENDOR_SECURITY_PATCH := 2026-03-05
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
